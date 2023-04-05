@@ -1,0 +1,14 @@
+#$ TITLE: PilkoFPV 4.4 rxrange settings
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RCLINK
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: rxrange
+#$ AUTHOR: PilkoFPV (Neil Pilkington)
+#$ DESCRIPTION: rxrange values for my radio
+
+# rxrange
+rxrange 0 988 2011
+rxrange 1 988 2011
+rxrange 2 988 2011
+rxrange 3 988 2011
+
