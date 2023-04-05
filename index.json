@@ -177,6 +177,7 @@
       "mouseFPV",
       "MrAlucardDante",
       "NemesisXB",
+      "PilkoFPV (Neil Pilkington)",
       "Sjoer van der Ploeg",
       "Stingers Swarm",
       "Sugar K",
@@ -3614,6 +3615,21 @@
       ],
       "author": "sugarK",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.4/modes/PilkoFPV_Modes.txt",
+      "hash": "70a3a7215bf80c087759fa4a79843e1b0a56372e3b2a441e0302aeabfd269a4a",
+      "title": "PilkoFPV 4.4 Modes and Adjustment settings",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "modes"
+      ],
+      "author": "PilkoFPV (Neil Pilkington)",
+      "priority": 0
     },
     {
       "fullPath": "presets/4.4/other/Street_League_motor_outputs.txt",
