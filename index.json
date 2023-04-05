@@ -409,6 +409,7 @@
       "rushfpv",
       "russia",
       "Rx",
+      "rxrange",
       "sa",
       "SA 2.0",
       "SA 2.0 lite",
@@ -3734,6 +3735,21 @@
       ],
       "author": "Davide FPV (Davide Angeletti)",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.4/rc_link/PilkoFPV_rxrange.txt",
+      "hash": "6b6ce3cb926c97e92f6312cad6947ff1b410bc7213929eec9e3dfc83fdef795e",
+      "title": "PilkoFPV 4.4 rxrange settings",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RC_LINK",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "rxrange"
+      ],
+      "author": "PilkoFPV (Neil Pilkington)",
+      "priority": 10000000000
     },
     {
       "fullPath": "presets/4.4/rc_link/reset_to_defaults.txt",
