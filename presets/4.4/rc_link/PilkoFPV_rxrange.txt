@@ -1,6 +1,6 @@
 #$ TITLE: PilkoFPV 4.4 rxrange settings
 #$ FIRMWARE_VERSION: 4.4
-#$ CATEGORY: RCLINK
+#$ CATEGORY: RC_LINK
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: rxrange
 #$ AUTHOR: PilkoFPV (Neil Pilkington)
