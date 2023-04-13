@@ -4,7 +4,7 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: modes
 #$ AUTHOR: PilkoFPV (Neil Pilkington)
-#$ DESCRIPTION: Mode values for my builds
+#$ DESCRIPTION: Configuration, Mode etc. values for my builds
 
 # aux switch settings
 aux 0 0 0 1900 2100 0 0
@@ -59,4 +59,230 @@ adjrange 26 0 0 900 900 0 0 0 0
 adjrange 27 0 0 900 900 0 0 0 0
 adjrange 28 0 0 900 900 0 0 0 0
 adjrange 29 0 0 900 900 0 0 0 0
+
+# map
+map RETA1234
+
+set serialrx_provider = CRSF
+
+set deadband = 3
+
+# feature
+feature -RX_PPM
+feature -INFLIGHT_ACC_CAL
+feature -RX_SERIAL
+feature -MOTOR_STOP
+feature -SERVO_TILT
+feature -SOFTSERIAL
+feature -GPS
+feature -RANGEFINDER
+feature -TELEMETRY
+feature -3D
+feature -RX_PARALLEL_PWM
+feature -RX_MSP
+feature -RSSI_ADC
+feature -LED_STRIP
+feature -DISPLAY
+feature -OSD
+feature -CHANNEL_FORWARDING
+feature -TRANSPONDER
+feature -AIRMODE
+feature -RX_SPI
+feature -ESC_SENSOR
+feature -ANTI_GRAVITY
+feature RX_SERIAL
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+feature ANTI_GRAVITY
+
+# beeper
+beeper GYRO_CALIBRATED
+beeper RX_LOST
+beeper RX_LOST_LANDING
+beeper DISARMING
+beeper ARMING
+beeper ARMING_GPS_FIX
+beeper ARMING_GPS_NO_FIX
+beeper BAT_CRIT_LOW
+beeper BAT_LOW
+beeper GPS_STATUS
+beeper RX_SET
+beeper ACC_CALIBRATION
+beeper ACC_CALIBRATION_FAIL
+beeper READY_BEEP
+beeper MULTI_BEEPS
+beeper DISARM_REPEAT
+beeper ARMED
+beeper SYSTEM_INIT
+beeper ON_USB
+beeper BLACKBOX_ERASE
+beeper CRASH_FLIP
+beeper CAM_CONNECTION_OPEN
+beeper CAM_CONNECTION_CLOSE
+beeper RC_SMOOTHING_INIT_FAIL
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# rxrange
+rxrange 0 988 2011
+rxrange 1 988 2011
+rxrange 2 988 2011
+rxrange 3 988 2011
+
+set osd_units = 
+###ERROR IN dump: CORRUPTED CONFIG: osd_units = 8###
+set osd_warn_bitmask = 8191
+set osd_rssi_alarm = 100
+set osd_link_quality_alarm = 80
+set osd_rssi_dbm_alarm = -60
+set osd_rsnr_alarm = 4
+set osd_cap_alarm = 720
+set osd_alt_alarm = 0
+set osd_distance_alarm = 0
+set osd_esc_temp_alarm = 0
+set osd_esc_rpm_alarm = -1
+set osd_esc_current_alarm = -1
+set osd_core_temp_alarm = 70
+set osd_ah_max_pit = 20
+set osd_ah_max_rol = 40
+set osd_ah_invert = OFF
+set osd_logo_on_arming = OFF
+set osd_logo_on_arming_duration = 5
+set osd_tim1 = 2560
+set osd_tim2 = 2561
+set osd_vbat_pos = 2729
+set osd_rssi_pos = 1557
+set osd_link_quality_pos = 3573
+set osd_link_tx_power_pos = 3509
+set osd_rssi_dbm_pos = 3541
+set osd_rsnr_pos = 1429
+set osd_tim_1_pos = 234
+set osd_tim_2_pos = 3748
+set osd_remaining_time_estimate_pos = 234
+set osd_flymode_pos = 2048
+set osd_anti_gravity_pos = 234
+set osd_g_force_pos = 234
+set osd_throttle_pos = 234
+set osd_vtx_channel_pos = 234
+set osd_crosshairs_pos = 205
+set osd_ah_sbar_pos = 206
+set osd_ah_pos = 78
+set osd_current_pos = 2748
+set osd_mah_drawn_pos = 2742
+set osd_wh_drawn_pos = 234
+set osd_motor_diag_pos = 234
+set osd_craft_name_pos = 2073
+set osd_pilot_name_pos = 234
+set osd_gps_speed_pos = 234
+set osd_gps_lon_pos = 234
+set osd_gps_lat_pos = 234
+set osd_gps_sats_pos = 234
+set osd_home_dir_pos = 234
+set osd_home_dist_pos = 234
+set osd_flight_dist_pos = 234
+set osd_compass_bar_pos = 234
+set osd_altitude_pos = 234
+set osd_pid_roll_pos = 234
+set osd_pid_pitch_pos = 234
+set osd_pid_yaw_pos = 234
+set osd_debug_pos = 234
+set osd_power_pos = 2432
+set osd_pidrate_profile_pos = 234
+set osd_warnings_pos = 15000
+set osd_avg_cell_voltage_pos = 2736
+set osd_pit_ang_pos = 234
+set osd_rol_ang_pos = 234
+set osd_battery_usage_pos = 234
+set osd_disarmed_pos = 2619
+set osd_nheading_pos = 234
+set osd_up_down_reference_pos = 205
+set osd_ready_mode_pos = 2080
+set osd_esc_tmp_pos = 234
+set osd_esc_rpm_pos = 224
+set osd_esc_rpm_freq_pos = 234
+set osd_rtc_date_time_pos = 1033
+set osd_adjustment_range_pos = 234
+set osd_flip_arrow_pos = 2112
+set osd_core_temp_pos = 2400
+set osd_log_status_pos = 2528
+set osd_stick_overlay_left_pos = 234
+set osd_stick_overlay_right_pos = 234
+set osd_stick_overlay_radio_mode = 2
+set osd_rate_profile_name_pos = 2464
+set osd_pid_profile_name_pos = 234
+set osd_profile_name_pos = 234
+set osd_rcchannels_pos = 234
+set osd_camera_frame_pos = 35
+set osd_efficiency_pos = 234
+set osd_total_flights_pos = 234
+set osd_aux_pos = 234
+set osd_sys_goggle_voltage_pos = 234
+set osd_sys_vtx_voltage_pos = 234
+set osd_sys_bitrate_pos = 234
+set osd_sys_delay_pos = 234
+set osd_sys_distance_pos = 234
+set osd_sys_lq_pos = 234
+set osd_sys_goggle_dvr_pos = 234
+set osd_sys_vtx_dvr_pos = 234
+set osd_sys_warnings_pos = 234
+set osd_sys_vtx_temp_pos = 234
+set osd_sys_fan_speed_pos = 234
+set osd_stat_bitmask = 14124
+set osd_profile = 1
+set osd_profile_1_name = -
+set osd_profile_2_name = -
+set osd_profile_3_name = -
+set osd_gps_sats_show_hdop = OFF
+set osd_displayport_device = MSP
+set osd_rcchannels = -1,-1,-1,-1
+set osd_camera_frame_width = 24
+set osd_camera_frame_height = 11
+set osd_stat_avg_cell_value = OFF
+set osd_framerate_hz = 12
+set osd_menu_background = TRANSPARENT
+set osd_aux_channel = 1
+set osd_aux_scale = 200
+set osd_aux_symbol = 65
+set osd_canvas_width = 60
+set osd_canvas_height = 22
+set osd_craftname_msgs = OFF
+
+rateprofile 0
+
+# rateprofile 0
+set rateprofile_name = -
+set thr_mid = 50
+set thr_expo = 0
+set rates_type = ACTUAL
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 20
+set pitch_rc_rate = 20
+set yaw_rc_rate = 20
+set roll_expo = 30
+set pitch_expo = 30
+set yaw_expo = 35
+set roll_srate = 82
+set pitch_srate = 82
+set yaw_srate = 87
+set throttle_limit_type = OFF
+set throttle_limit_percent = 100
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+set roll_level_expo = 0
+set pitch_level_expo = 0
+
+
+
+
+
+
+
+
+
+
+
 
