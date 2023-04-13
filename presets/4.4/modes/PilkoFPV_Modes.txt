@@ -29,7 +29,6 @@ aux 18 0 0 900 900 0 0
 aux 19 0 0 900 900 0 0
 
 # adjustment ranges
-
 adjrange 0 0 0 900 900 0 0 0 0
 adjrange 1 0 0 900 900 0 0 0 0
 adjrange 2 0 0 900 900 0 0 0 0
