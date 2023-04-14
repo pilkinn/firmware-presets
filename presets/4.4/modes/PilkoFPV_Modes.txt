@@ -14,6 +14,10 @@
     set motor_pwm_protocol = Dshot300
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): Bi-Dir Dshot
+    set dshot_bidir = ON
+#$ OPTION END
+
 # aux switch settings
 aux 0 0 0 1900 2100 0 0
 aux 1 1 1 1450 1550 0 0
