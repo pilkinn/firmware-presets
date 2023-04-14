@@ -136,15 +136,13 @@
       "4.4"
     ],
     "category": [
-      "MODES",
-      "RC_LINK"
+      "MODES"
     ],
     "author": [
       "PilkoFPV (Neil Pilkington)"
     ],
     "keywords": [
-      "modes",
-      "rxrange"
+      "modes"
     ]
   },
   "presets": [
@@ -162,21 +160,6 @@
       ],
       "author": "PilkoFPV (Neil Pilkington)",
       "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/rc_link/PilkoFPV_rxrange.txt",
-      "hash": "32c494690cd27c96c8d2046a536de2d57bb85e9d2c88cf3f4b14b49165b3b91f",
-      "title": "PilkoFPV 4.4 rxrange and receiver settings",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "RC_LINK",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "rxrange"
-      ],
-      "author": "PilkoFPV (Neil Pilkington)",
-      "priority": 10000000000
     }
   ]
 }
