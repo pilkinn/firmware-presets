@@ -148,7 +148,7 @@
   "presets": [
     {
       "fullPath": "presets/4.4/modes/PilkoFPV_Modes.txt",
-      "hash": "aa1ea07216b19385b68babcd3282a302953669a257b232e59ffc980cf570ae19",
+      "hash": "a2b0225762a91f1c69c74050192af121f8a6d9dcefcb434679abade4e83b7cbb",
       "title": "PilkoFPV 4.4 Modes and Adjustment settings",
       "firmware_version": [
         "4.4"
