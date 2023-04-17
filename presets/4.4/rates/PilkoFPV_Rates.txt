@@ -1,0 +1,47 @@
+#$ TITLE: PilkoFPV 4.4 Rates
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RATES
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: rates
+#$ AUTHOR: PilkoFPV (Neil Pilkington)
+#$ DESCRIPTION: Rate profiles
+
+set throttle_limit_type = OFF
+set throttle_limit_percent = 100
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+set roll_level_expo = 0
+set pitch_level_expo = 0
+set thr_mid = 50
+set thr_expo = 0
+set quickrates_rc_expo = OFF
+
+rateprofile 0
+
+# rateprofile 0
+set rateprofile_name = -
+set rates_type = ACTUAL
+set roll_rc_rate = 20
+set pitch_rc_rate = 20
+set yaw_rc_rate = 20
+set roll_expo = 30
+set pitch_expo = 30
+set yaw_expo = 35
+set roll_srate = 82
+set pitch_srate = 82
+set yaw_srate = 87
+
+# rateprofile 1
+set rateprofile_name = -
+set rates_type = ACTUAL
+set roll_rc_rate = 15
+set pitch_rc_rate = 15
+set yaw_rc_rate = 20
+set roll_expo = 76
+set pitch_expo = 76
+set yaw_expo = 64
+set roll_srate = 91
+set pitch_srate = 91
+set yaw_srate = 80
