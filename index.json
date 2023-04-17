@@ -133,23 +133,26 @@
   },
   "uniqueValues": {
     "firmware_version": [
+      "4.3",
       "4.4"
     ],
     "category": [
-      "MODES"
+      "MODES",
+      "RATES"
     ],
     "author": [
       "PilkoFPV (Neil Pilkington)"
     ],
     "keywords": [
-      "modes"
+      "modes",
+      "rates"
     ]
   },
   "presets": [
     {
       "fullPath": "presets/4.4/modes/PilkoFPV_Modes.txt",
-      "hash": "a2b0225762a91f1c69c74050192af121f8a6d9dcefcb434679abade4e83b7cbb",
-      "title": "PilkoFPV 4.4 Modes and Adjustment settings",
+      "hash": "351fe0ca19d2a82dff8f52abfc5b6cd18812958d9d8d1c74a52cc41883547270",
+      "title": "PilkoFPV 4.4 Configuration, Modes and OSD",
       "firmware_version": [
         "4.4"
       ],
@@ -160,6 +163,22 @@
       ],
       "author": "PilkoFPV (Neil Pilkington)",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/rates/PilkoFPV_Rates.txt",
+      "hash": "b1632466eb599b24149ed90a0b9a9903dabd0ab4c917cf4a7c222467fd33e5a4",
+      "title": "PilkoFPV 4.4 Rates",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "rates"
+      ],
+      "author": "PilkoFPV (Neil Pilkington)",
+      "priority": 10000
     }
   ]
 }
