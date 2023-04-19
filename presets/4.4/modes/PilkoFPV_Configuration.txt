@@ -1,8 +1,8 @@
 #$ TITLE: PilkoFPV 4.4 Configuration, Modes
 #$ FIRMWARE_VERSION: 4.4
-#$ CATEGORY: MODES
+#$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: modes
+#$ KEYWORDS: configuration
 #$ AUTHOR: PilkoFPV (Neil Pilkington)
 #$ DESCRIPTION: Configuration, Modes etc. values for my builds
 
