@@ -14,9 +14,16 @@
     set motor_pwm_protocol = Dshot300
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Bi-Dir Dshot
-    set dshot_bidir = ON
-#$ OPTION END
+#$ OPTION_GROUP BEGIN: Bi-directional DSHOT
+    #$ OPTION BEGIN (UNCHECKED): 12 pole motors
+        set dshot_bidir = ON
+        set motor_poles = 12
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): 14 pole motors
+        set dshot_bidir = ON
+        set motor_poles = 14
+    #$ OPTION END
+#$ OPTION_GROUP END
 
 # aux switch settings
 aux 0 0 0 1900 2100 0 0
