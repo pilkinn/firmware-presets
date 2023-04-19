@@ -125,13 +125,17 @@ set osd_craftname_msgs = OFF
 
 set vcd_video_system = HD
 
-#$ OPTION BEGIN (UNCHECKED): GPS
-    set osd_gps_lon_pos = 35877
-    set osd_gps_lat_pos = 34859
-    set osd_gps_sats_pos = 3095
-    set osd_home_dir_pos = 2142
-    set osd_home_dist_pos = 3381
-    set osd_flight_dist_pos = 3445
-    set osd_compass_bar_pos = 2106
-    set osd_altitude_pos = 19797
-#$ OPTION END
+#$ OPTION_GROUP BEGIN: GPS OSD elements
+    #$ OPTION BEGIN (UNCHECKED): Standard GPS
+        set osd_gps_lon_pos = 35877
+        set osd_gps_lat_pos = 34859
+        set osd_gps_sats_pos = 3095
+        set osd_home_dir_pos = 2142
+        set osd_home_dist_pos = 3381
+        set osd_flight_dist_pos = 3445
+        set osd_altitude_pos = 19797
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Compass elements
+        set osd_compass_bar_pos = 2106
+    #$ OPTION END
+#$ OPTION_GROUP END
