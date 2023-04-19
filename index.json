@@ -168,8 +168,8 @@
     },
     {
       "fullPath": "presets/4.4/other/PilkoFPV_Configuration.txt",
-      "hash": "07dcbef42491d6457390790b975b6faab7f8829b862f2e3a159d39b84349bd72",
-      "title": "PilkoFPV 4.4 Configuration, Modes",
+      "hash": "4fa5bbbb7d274b3f40a39084811f454cf14d08d7676dd66cef0149add0b04af8",
+      "title": "PilkoFPV 4.4 Basic configuration",
       "firmware_version": [
         "4.4"
       ],
