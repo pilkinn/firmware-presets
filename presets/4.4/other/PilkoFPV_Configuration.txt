@@ -1,4 +1,4 @@
-#$ TITLE: PilkoFPV 4.4 Configuration, Modes
+#$ TITLE: PilkoFPV 4.4 Basic configuration
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
