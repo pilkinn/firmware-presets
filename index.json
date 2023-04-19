@@ -153,7 +153,7 @@
   "presets": [
     {
       "fullPath": "presets/4.4/modes/PilkoFPV_Modes.txt",
-      "hash": "a2e4ebb11247f249e2f93b527f745f7f772a8141d60a62c6560b8bf9b590532e",
+      "hash": "7a9621e1c8725c30394ce215dc77b262c1962d6c9203b4e639d9effd19b28782",
       "title": "PilkoFPV 4.4 Configuration, Modes",
       "firmware_version": [
         "4.4"
@@ -168,7 +168,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD.txt",
-      "hash": "fab9761f16397bf1a27a2257f41186762dd65bf1ded119a3b436df4b3cf73398",
+      "hash": "fee093191e568d7199315fdd469ec9774767aba398dbb301df055b454a201d8d",
       "title": "PilkoFPV 4.4 OSD",
       "firmware_version": [
         "4.4"
