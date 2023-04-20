@@ -122,6 +122,15 @@ set osd_aux_symbol = 65
 set osd_canvas_width = 60
 set osd_canvas_height = 22
 set osd_craftname_msgs = OFF
+set osd_compass_bar_pos = 234
+set osd_gps_lon_pos = 234
+set osd_gps_lat_pos = 234
+set osd_gps_sats_pos = 234
+set osd_home_dir_pos = 234
+set osd_gps_speed_pos = 234
+set osd_home_dist_pos = 234
+set osd_flight_dist_pos = 234
+set osd_altitude_pos = 234
 
 set vcd_video_system = HD
 

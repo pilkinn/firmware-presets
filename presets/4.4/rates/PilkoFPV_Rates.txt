@@ -18,8 +18,9 @@ set thr_mid = 50
 set thr_expo = 0
 set quickrates_rc_expo = OFF
 
-rateprofile 0
+profile 0
 
+rateprofile 0
 # rateprofile 0
 set rateprofile_name = -
 set rates_type = ACTUAL
@@ -33,6 +34,7 @@ set roll_srate = 82
 set pitch_srate = 82
 set yaw_srate = 87
 
+rateprofile 1
 # rateprofile 1
 set rateprofile_name = -
 set rates_type = ACTUAL
