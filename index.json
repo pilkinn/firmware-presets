@@ -137,6 +137,7 @@
       "4.4"
     ],
     "category": [
+      "MODES",
       "OSD",
       "OTHER",
       "RATES"
@@ -146,11 +147,27 @@
     ],
     "keywords": [
       "configuration",
+      "modes",
       "osd",
       "rates"
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.4/modes/PilkoFPV_Modes.txt",
+      "hash": "34a15bee1c780b769c165980f3445655efb56256bb3c6f7e302f1db0f1ce3031",
+      "title": "PilkoFPV 4.4 Modes",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "modes"
+      ],
+      "author": "PilkoFPV (Neil Pilkington)",
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD.txt",
       "hash": "7967b4c5f85f283ed35b6408d5417eb02b48a791cc1f971ecfb71c78e8302656",
@@ -168,7 +185,7 @@
     },
     {
       "fullPath": "presets/4.4/other/PilkoFPV_Configuration.txt",
-      "hash": "aed2e882d2b1cb3915364873517ae662711247ce40b55abd8b4a51a09282791b",
+      "hash": "eda8eccaba836df57683661b8022029b0fdc505a95df6d8a27e953c5fd09bb84",
       "title": "PilkoFPV 4.4 Basic configuration",
       "firmware_version": [
         "4.4"
@@ -183,7 +200,7 @@
     },
     {
       "fullPath": "presets/4.4/rates/PilkoFPV_Rates.txt",
-      "hash": "ea21fb9235cd87c75f9437ff2e340576afb579871ebfa54ab288c2559d5eb994",
+      "hash": "090e9a3a60af391f436ce10c2985d448f4fb80e04db7aa32cb59da73936e5689",
       "title": "PilkoFPV 4.4 Rates",
       "firmware_version": [
         "4.3",
