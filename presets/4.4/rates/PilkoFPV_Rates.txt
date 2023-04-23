@@ -39,6 +39,7 @@ set crash_delay = 0
 set crash_recovery_angle = 10
 set crash_recovery_rate = 100
 set crash_limit_yaw = 200
+set crash_recovery = OFF
 #$ OPTION BEGIN (UNCHECKED): Crash Recovery
     set crash_recovery = ON
 #$ OPTION END
@@ -64,6 +65,7 @@ set crash_delay = 0
 set crash_recovery_angle = 10
 set crash_recovery_rate = 100
 set crash_limit_yaw = 200
+set crash_recovery = OFF
 #$ OPTION BEGIN (UNCHECKED): Crash Recovery
     set crash_recovery = ON
 #$ OPTION END
