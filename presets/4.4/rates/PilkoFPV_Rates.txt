@@ -31,6 +31,17 @@ set yaw_expo = 40
 set roll_srate = 82
 set pitch_srate = 82
 set yaw_srate = 87
+set crash_dthreshold = 50
+set crash_gthreshold = 400
+set crash_setpoint_threshold = 350
+set crash_time = 500
+set crash_delay = 0
+set crash_recovery_angle = 10
+set crash_recovery_rate = 100
+set crash_limit_yaw = 200
+#$ OPTION BEGIN (UNCHECKED): Crash Recovery
+    set crash_recovery = ON
+#$ OPTION END
 
 rateprofile 1
 # rateprofile 1
@@ -45,5 +56,16 @@ set yaw_expo = 64
 set roll_srate = 91
 set pitch_srate = 91
 set yaw_srate = 80
+set crash_dthreshold = 50
+set crash_gthreshold = 400
+set crash_setpoint_threshold = 350
+set crash_time = 500
+set crash_delay = 0
+set crash_recovery_angle = 10
+set crash_recovery_rate = 100
+set crash_limit_yaw = 200
+#$ OPTION BEGIN (UNCHECKED): Crash Recovery
+    set crash_recovery = ON
+#$ OPTION END
 
 rateprofile 0
