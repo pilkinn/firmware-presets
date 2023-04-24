@@ -74,6 +74,16 @@ feature ANTI_GRAVITY
     set gps_sbas_integrity = OFF
 #$ OPTION END
 
+set baro_hardware = NONE
+#$ OPTION BEGIN (UNCHECKED): Barometer
+    set baro_hardware = AUTO
+#$ OPTION END
+
+set mag_hardware = NONE
+#$ OPTION BEGIN (UNCHECKED): Magnetometer
+    set mag_hardware = AUTO
+#$ OPTION END
+
 set small_angle = 180
 
 # beeper
