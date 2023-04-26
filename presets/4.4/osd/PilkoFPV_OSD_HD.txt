@@ -1,10 +1,11 @@
-#$ TITLE: PilkoFPV 4.4 OSD
+#$ TITLE: PilkoFPV OSD HD
+#$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: osd
 #$ AUTHOR: PilkoFPV (Neil Pilkington)
-#$ DESCRIPTION: OSD layout
+#$ DESCRIPTION: OSD layout for HD
 
 set osd_units = METRIC
 set osd_warn_bitmask = 8191
