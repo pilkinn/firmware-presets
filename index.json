@@ -203,7 +203,7 @@
     },
     {
       "fullPath": "presets/4.4/other/PilkoFPV_Configuration.txt",
-      "hash": "607cb3ab08e8d1a3aaa8ff9bc3d1436589ba430bf2f3525a2093c49e0639c482",
+      "hash": "434fa0eec6df16f3cd3e456578c7ec23791e20255521bae06d1d610d01d5e98e",
       "title": "PilkoFPV 4.4 Basic configuration",
       "firmware_version": [
         "4.4"
@@ -218,7 +218,7 @@
     },
     {
       "fullPath": "presets/4.4/rates/PilkoFPV_Rates.txt",
-      "hash": "12692c7b580a91a1680f3f3a2709861d635635241c80b7c7ab2793acfb512ef6",
+      "hash": "93af3ca4493b54669ce34cf245c28b5fddb15018f850c79894178258af7c61bf",
       "title": "PilkoFPV 4.4 Rates",
       "firmware_version": [
         "4.3",
