@@ -57,7 +57,7 @@ feature -ESC_SENSOR
 feature -ANTI_GRAVITY
 feature RX_SERIAL
 feature TELEMETRY
-feature LED_STRIP
+feature -LED_STRIP
 feature OSD
 feature ANTI_GRAVITY
 
