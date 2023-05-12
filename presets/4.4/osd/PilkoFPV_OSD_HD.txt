@@ -153,7 +153,7 @@ set osd_disarmed_pos = 2619
     #$ OPTION END
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: Navigation OSD elements
+#$ OPTION_GROUP BEGIN: Navigation Elements
     #$ OPTION BEGIN (UNCHECKED): Sats
         set osd_gps_sats_pos = 3095
     #$ OPTION END
@@ -180,7 +180,7 @@ set osd_disarmed_pos = 2619
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: RX Elements
-    #$ OPTION BEGIN (CHECKED): TX Power
+    #$ OPTION BEGIN (CHECKED): TX Uplink Power
         set osd_link_tx_power_pos = 3509
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): RSSI dbm
