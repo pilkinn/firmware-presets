@@ -8,15 +8,30 @@
 #$ DESCRIPTION: OSD layout for Analog
 
 set osd_units = METRIC
-set osd_warn_bitmask = 8191
-set osd_rssi_alarm = 100
+set osd_warn_arming_disable = ON
+set osd_warn_batt_not_full = ON
+set osd_warn_batt_warning = ON
+set osd_warn_batt_critical = ON
+set osd_warn_visual_beeper = ON
+set osd_warn_crash_flip = ON
+set osd_warn_esc_fail = ON
+set osd_warn_core_temp = ON
+set osd_warn_rc_smoothing = ON
+set osd_warn_fail_safe = ON
+set osd_warn_launch_control = ON
+set osd_warn_no_gps_rescue = ON
+set osd_warn_gps_rescue_disabled = ON
+set osd_warn_rssi = OFF
+set osd_warn_link_quality = OFF
+set osd_warn_rssi_dbm = OFF
+set osd_warn_over_cap = OFF
+set osd_rssi_alarm = 20
 set osd_link_quality_alarm = 80
 set osd_rssi_dbm_alarm = -60
-set osd_rsnr_alarm = 4
-set osd_cap_alarm = 720
-set osd_alt_alarm = 0
+set osd_cap_alarm = 2200
+set osd_alt_alarm = 100
 set osd_distance_alarm = 0
-set osd_esc_temp_alarm = 0
+set osd_esc_temp_alarm = -128
 set osd_esc_rpm_alarm = -1
 set osd_esc_current_alarm = -1
 set osd_core_temp_alarm = 70
@@ -27,128 +42,191 @@ set osd_logo_on_arming = OFF
 set osd_logo_on_arming_duration = 5
 set osd_tim1 = 2560
 set osd_tim2 = 2561
-set osd_vbat_pos = 2729
-set osd_rssi_pos = 1557
-set osd_link_quality_pos = 3573
-set osd_link_tx_power_pos = 3509
-set osd_rssi_dbm_pos = 3541
-set osd_rsnr_pos = 1429
-set osd_tim_1_pos = 234
-set osd_tim_2_pos = 3748
+set osd_vbat_pos = 2528
+set osd_rssi_pos = 2555
+set osd_link_quality_pos = 2424
+set osd_link_tx_power_pos = 2456
+set osd_rssi_dbm_pos = 2488
+set osd_tim_1_pos = 440
+set osd_tim_2_pos = 2520
 set osd_remaining_time_estimate_pos = 234
-set osd_flymode_pos = 2048
+set osd_flymode_pos = 234
 set osd_anti_gravity_pos = 234
 set osd_g_force_pos = 234
 set osd_throttle_pos = 234
-set osd_vtx_channel_pos = 234
+set osd_vtx_channel_pos = 2080
 set osd_crosshairs_pos = 205
 set osd_ah_sbar_pos = 206
 set osd_ah_pos = 78
-set osd_current_pos = 2748
-set osd_mah_drawn_pos = 2742
-set osd_wh_drawn_pos = 234
+set osd_current_pos = 2547
+set osd_mah_drawn_pos = 2543
 set osd_motor_diag_pos = 234
-set osd_craft_name_pos = 2073
-set osd_pilot_name_pos = 234
-set osd_gps_speed_pos = 234
-set osd_gps_lon_pos = 234
-set osd_gps_lat_pos = 234
-set osd_gps_sats_pos = 234
-set osd_home_dir_pos = 234
-set osd_home_dist_pos = 234
-set osd_flight_dist_pos = 234
-set osd_compass_bar_pos = 234
-set osd_altitude_pos = 234
+set osd_craft_name_pos = 2090
+set osd_display_name_pos = 234
+set osd_gps_speed_pos = 2362
+set osd_gps_lon_pos = 34896
+set osd_gps_lat_pos = 34880
+set osd_gps_sats_pos = 2106
+set osd_home_dir_pos = 2126
+set osd_home_dist_pos = 2264
+set osd_flight_dist_pos = 2328
+set osd_compass_bar_pos = 2154
+set osd_altitude_pos = 18681
 set osd_pid_roll_pos = 234
 set osd_pid_pitch_pos = 234
 set osd_pid_yaw_pos = 234
 set osd_debug_pos = 234
-set osd_power_pos = 2432
+set osd_power_pos = 234
 set osd_pidrate_profile_pos = 234
-set osd_warnings_pos = 15000
-set osd_avg_cell_voltage_pos = 2736
+set osd_warnings_pos = 14761
+set osd_avg_cell_voltage_pos = 2534
 set osd_pit_ang_pos = 234
 set osd_rol_ang_pos = 234
 set osd_battery_usage_pos = 234
-set osd_disarmed_pos = 2619
+set osd_disarmed_pos = 2442
 set osd_nheading_pos = 234
 set osd_up_down_reference_pos = 205
-set osd_ready_mode_pos = 2080
+set osd_nvario_pos = 234
 set osd_esc_tmp_pos = 234
-set osd_esc_rpm_pos = 224
+set osd_esc_rpm_pos = 234
 set osd_esc_rpm_freq_pos = 234
-set osd_rtc_date_time_pos = 1033
+set osd_rtc_date_time_pos = 234
 set osd_adjustment_range_pos = 234
-set osd_flip_arrow_pos = 2112
+set osd_flip_arrow_pos = 2510
 set osd_core_temp_pos = 2400
-set osd_log_status_pos = 2528
+set osd_log_status_pos = 2432
 set osd_stick_overlay_left_pos = 234
 set osd_stick_overlay_right_pos = 234
 set osd_stick_overlay_radio_mode = 2
-set osd_rate_profile_name_pos = 2464
+set osd_rate_profile_name_pos = 234
 set osd_pid_profile_name_pos = 234
 set osd_profile_name_pos = 234
 set osd_rcchannels_pos = 234
 set osd_camera_frame_pos = 35
 set osd_efficiency_pos = 234
 set osd_total_flights_pos = 234
-set osd_aux_pos = 234
-set osd_sys_goggle_voltage_pos = 234
-set osd_sys_vtx_voltage_pos = 234
-set osd_sys_bitrate_pos = 234
-set osd_sys_delay_pos = 234
-set osd_sys_distance_pos = 234
-set osd_sys_lq_pos = 234
-set osd_sys_goggle_dvr_pos = 234
-set osd_sys_vtx_dvr_pos = 234
-set osd_sys_warnings_pos = 234
-set osd_sys_vtx_temp_pos = 234
-set osd_sys_fan_speed_pos = 234
-set osd_stat_bitmask = 14124
+set osd_stat_rtc_date_time = OFF
+set osd_stat_tim_1 = OFF
+set osd_stat_tim_2 = ON
+set osd_stat_max_spd = ON
+set osd_stat_max_dist = OFF
+set osd_stat_min_batt = ON
+set osd_stat_endbatt = OFF
+set osd_stat_battery = OFF
+set osd_stat_min_rssi = ON
+set osd_stat_max_curr = ON
+set osd_stat_used_mah = ON
+set osd_stat_max_alt = OFF
+set osd_stat_bbox = ON
+set osd_stat_bb_no = ON
+set osd_stat_max_g_force = OFF
+set osd_stat_max_esc_temp = OFF
+set osd_stat_max_esc_rpm = OFF
+set osd_stat_min_link_quality = OFF
+set osd_stat_flight_dist = OFF
+set osd_stat_max_fft = OFF
+set osd_stat_total_flights = OFF
+set osd_stat_total_time = OFF
+set osd_stat_total_dist = OFF
+set osd_stat_min_rssi_dbm = OFF
 set osd_profile = 1
 set osd_profile_1_name = -
 set osd_profile_2_name = -
 set osd_profile_3_name = -
 set osd_gps_sats_show_hdop = OFF
-set osd_displayport_device = MSP
+set osd_displayport_device = AUTO
 set osd_rcchannels = -1,-1,-1,-1
 set osd_camera_frame_width = 24
 set osd_camera_frame_height = 11
 set osd_stat_avg_cell_value = OFF
 set osd_framerate_hz = 12
 set osd_menu_background = TRANSPARENT
-set osd_aux_channel = 1
-set osd_aux_scale = 200
-set osd_aux_symbol = 65
-set osd_canvas_width = 60
-set osd_canvas_height = 22
-set osd_craftname_msgs = OFF
-set osd_compass_bar_pos = 234
-set osd_gps_lon_pos = 234
-set osd_gps_lat_pos = 234
-set osd_gps_sats_pos = 234
-set osd_home_dir_pos = 234
-set osd_gps_speed_pos = 234
-set osd_home_dist_pos = 234
-set osd_flight_dist_pos = 234
-set osd_altitude_pos = 234
 
-set vcd_video_system = HD
+set vcd_video_system = AUTO
+set vcd_h_offset = 0
+set vcd_v_offset = 0
 
-#$ OPTION_GROUP BEGIN: Navigation OSD elements
-    #$ OPTION BEGIN (UNCHECKED): GPS elements
-        set osd_gps_lon_pos = 35877
-        set osd_gps_lat_pos = 34859
-        set osd_gps_sats_pos = 3095
-        set osd_home_dir_pos = 2142
-        set osd_gps_speed_pos = 3381
-        set osd_home_dist_pos = 3349
-        set osd_flight_dist_pos = 3413
+#$ OPTION_GROUP BEGIN: Battery & Current Elements
+    #$ OPTION BEGIN (CHECKED): Battery Voltage
+        set osd_vbat_pos = 2528
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Compass elements
-        set osd_compass_bar_pos = 2106
+    #$ OPTION BEGIN (CHECKED): Average Cell Voltage
+        set osd_avg_cell_voltage_pos = 2534
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Barometer elements
-        set osd_altitude_pos = 19829
+    #$ OPTION BEGIN (CHECKED): Milliamps Drawn
+        set osd_mah_drawn_pos = 2543
+    #$ OPTION END
+    #$ OPTION BEGIN (CHECKED): Current
+        set osd_current_pos = 2547
     #$ OPTION END
 #$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Navigation OSD elements
+    #$ OPTION BEGIN (UNCHECKED): Sats
+        set osd_gps_sats_pos = 2106
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Lat and Long
+        set osd_gps_lon_pos = 34896
+        set osd_gps_lat_pos = 34880
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Compass Bar
+        set osd_compass_bar_pos = 2154
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Home Distance & Home Arrow
+        set osd_home_dir_pos = 2126
+        set osd_home_dist_pos = 2264
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Altitude
+        set osd_altitude_pos = 18681
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): GPS Speed
+        set osd_gps_speed_pos = 2362
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Flight Distance
+        set osd_flight_dist_pos = 2328
+#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: RX Elements
+    #$ OPTION BEGIN (CHECKED): TX Power
+        set osd_link_tx_power_pos = xxxx
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): RSSI dbm
+        set osd_rssi_dbm_pos = xxxx
+    #$ OPTION END
+    #$ OPTION BEGIN (CHECKED): Link Quality
+         set osd_link_quality_pos = xxxx
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): RSSI %
+        set osd_rssi_pos = xxxx
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Miscellaneous Elements
+    #$ OPTION BEGIN (CHECKED): Craft Name
+        set osd_craft_name_pos = 2073
+    #$ OPTION END
+    #$ OPTION BEGIN (CHECKED): Flight Mode
+        set osd_flymode_pos = 2048
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Ready Mode
+        set osd_ready_mode_pos = 2080
+    #$ OPTION END
+    #$ OPTION BEGIN (CHECKED): Flip arrow
+        set osd_flip_arrow_pos = 2112
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Core Temp
+        set osd_core_temp_pos = 2400
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Power
+        set osd_power_pos = 2432
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Rate Profile
+        set osd_rate_profile_name_pos = 2464
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Blackbox Log Status
+        set osd_log_status_pos = 2528
+    #$ OPTION END
+
+#$ OPTION_GROUP END
+
