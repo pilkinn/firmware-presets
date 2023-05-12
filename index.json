@@ -171,7 +171,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog.txt",
-      "hash": "9c18bca98a5eccfe2666c767434c607cb2750f29ca9efd647677d99506ca6cf8",
+      "hash": "6f3866778d1b520c696e2a9ce8875f88a4d5480dc9cd3d765d518bfbd745e823",
       "title": "PilkoFPV OSD Analog",
       "firmware_version": [
         "4.3",
@@ -187,7 +187,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD_HD.txt",
-      "hash": "b174810fb20671621e96df7e9d7b5dba1985a94492505951cb1e9ab4fd9b5522",
+      "hash": "409f183230d5c2cf34786c02afa12c8adf9f730dc27a6628033d970f24e2caa8",
       "title": "PilkoFPV OSD HD",
       "firmware_version": [
         "4.3",

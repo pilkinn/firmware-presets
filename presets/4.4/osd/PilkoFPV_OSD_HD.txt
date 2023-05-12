@@ -26,15 +26,13 @@ set osd_ah_invert = OFF
 set osd_logo_on_arming = OFF
 set osd_logo_on_arming_duration = 5
 set osd_tim1 = 2560
-set osd_tim2 = 2561
 set osd_vbat_pos = 234
 set osd_rssi_pos = 234
 set osd_link_quality_pos = 234
 set osd_link_tx_power_pos = 234
 set osd_rssi_dbm_pos = 234
-set osd_rsnr_pos = 1429
+set osd_rsnr_pos = 234
 set osd_tim_1_pos = 234
-set osd_tim_2_pos = 3748
 set osd_remaining_time_estimate_pos = 234
 set osd_flymode_pos = 234
 set osd_anti_gravity_pos = 234
@@ -65,12 +63,10 @@ set osd_pid_yaw_pos = 234
 set osd_debug_pos = 234
 set osd_power_pos = 234
 set osd_pidrate_profile_pos = 234
-set osd_warnings_pos = 15000
 set osd_avg_cell_voltage_pos = 234
 set osd_pit_ang_pos = 234
 set osd_rol_ang_pos = 234
 set osd_battery_usage_pos = 234
-set osd_disarmed_pos = 2619
 set osd_nheading_pos = 234
 set osd_up_down_reference_pos = 205
 set osd_ready_mode_pos = 234
@@ -134,6 +130,13 @@ set osd_flight_dist_pos = 234
 set osd_altitude_pos = 234
 
 set vcd_video_system = HD
+set vcd_h_offset = 0
+set vcd_v_offset = 0
+
+set osd_tim2 = 2561
+set osd_tim_2_pos = 3748
+set osd_warnings_pos = 15000
+set osd_disarmed_pos = 2619
 
 #$ OPTION_GROUP BEGIN: Battery & Current Elements
     #$ OPTION BEGIN (CHECKED): Battery Voltage
