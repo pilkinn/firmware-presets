@@ -189,43 +189,43 @@ set vcd_v_offset = 0
 
 #$ OPTION_GROUP BEGIN: RX Elements
     #$ OPTION BEGIN (CHECKED): TX Power
-        set osd_link_tx_power_pos = xxxx
+        set osd_link_tx_power_pos = 2456
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): RSSI dbm
-        set osd_rssi_dbm_pos = xxxx
+        set osd_rssi_dbm_pos = 2488
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Link Quality
-         set osd_link_quality_pos = xxxx
+         set osd_link_quality_pos = 2424
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): RSSI %
-        set osd_rssi_pos = xxxx
+        set osd_rssi_pos = 2555
     #$ OPTION END
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: Miscellaneous Elements
     #$ OPTION BEGIN (CHECKED): Craft Name
-        set osd_craft_name_pos = 2073
+        set osd_craft_name_pos = 2090
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Flight Mode
-        set osd_flymode_pos = 2048
+        set osd_flymode_pos = 1111
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Ready Mode
-        set osd_ready_mode_pos = 2080
+        set osd_ready_mode_pos = 1112
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Flip arrow
-        set osd_flip_arrow_pos = 2112
+        set osd_flip_arrow_pos = 2510
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Core Temp
         set osd_core_temp_pos = 2400
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Power
-        set osd_power_pos = 2432
+        set osd_power_pos = 1113
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Rate Profile
-        set osd_rate_profile_name_pos = 2464
+        set osd_rate_profile_name_pos = 1115
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Blackbox Log Status
-        set osd_log_status_pos = 2528
+        set osd_log_status_pos = 2432
     #$ OPTION END
 
 #$ OPTION_GROUP END
