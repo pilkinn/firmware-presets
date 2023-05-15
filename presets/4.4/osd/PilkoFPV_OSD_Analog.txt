@@ -41,19 +41,18 @@ set osd_ah_invert = OFF
 set osd_logo_on_arming = OFF
 set osd_logo_on_arming_duration = 5
 set osd_tim1 = 2560
-set osd_vbat_pos = 2528
-set osd_rssi_pos = 2555
-set osd_link_quality_pos = 2424
-set osd_link_tx_power_pos = 2456
-set osd_rssi_dbm_pos = 2488
-set osd_tim_1_pos = 440
-set osd_tim_2_pos = 2520
+set osd_vbat_pos = 234
+set osd_rssi_pos = 234
+set osd_link_quality_pos = 234
+set osd_link_tx_power_pos = 234
+set osd_rssi_dbm_pos = 234
+set osd_tim_1_pos = 234
 set osd_remaining_time_estimate_pos = 234
 set osd_flymode_pos = 234
 set osd_anti_gravity_pos = 234
 set osd_g_force_pos = 234
 set osd_throttle_pos = 234
-set osd_vtx_channel_pos = 2080
+set osd_vtx_channel_pos = 234
 set osd_crosshairs_pos = 205
 set osd_ah_sbar_pos = 206
 set osd_ah_pos = 78
@@ -77,7 +76,7 @@ set osd_pid_yaw_pos = 234
 set osd_debug_pos = 234
 set osd_power_pos = 234
 set osd_pidrate_profile_pos = 234
-set osd_avg_cell_voltage_pos = 2534
+set osd_avg_cell_voltage_pos = 234
 set osd_pit_ang_pos = 234
 set osd_rol_ang_pos = 234
 set osd_battery_usage_pos = 234
@@ -102,29 +101,6 @@ set osd_rcchannels_pos = 234
 set osd_camera_frame_pos = 35
 set osd_efficiency_pos = 234
 set osd_total_flights_pos = 234
-set osd_stat_rtc_date_time = OFF
-set osd_stat_tim_1 = OFF
-set osd_stat_max_spd = ON
-set osd_stat_max_dist = OFF
-set osd_stat_min_batt = ON
-set osd_stat_endbatt = OFF
-set osd_stat_battery = OFF
-set osd_stat_min_rssi = ON
-set osd_stat_max_curr = ON
-set osd_stat_used_mah = ON
-set osd_stat_max_alt = OFF
-set osd_stat_bbox = ON
-set osd_stat_bb_no = ON
-set osd_stat_max_g_force = OFF
-set osd_stat_max_esc_temp = OFF
-set osd_stat_max_esc_rpm = OFF
-set osd_stat_min_link_quality = OFF
-set osd_stat_flight_dist = OFF
-set osd_stat_max_fft = OFF
-set osd_stat_total_flights = OFF
-set osd_stat_total_time = OFF
-set osd_stat_total_dist = OFF
-set osd_stat_min_rssi_dbm = OFF
 set osd_profile = 1
 set osd_profile_1_name = -
 set osd_profile_2_name = -
@@ -142,6 +118,7 @@ set vcd_video_system = AUTO
 set vcd_h_offset = 0
 set vcd_v_offset = 0
 
+set osd_tim_2_pos = 2520
 set osd_tim2 = 2561
 set osd_stat_tim_2 = ON
 set osd_disarmed_pos = 2442
@@ -227,6 +204,9 @@ set osd_warnings_pos = 14761
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Blackbox Log Status
         set osd_log_status_pos = 2432
+    #$ OPTION END
+    #$ OPTION BEGIN (CHECKED): VTX Channel
+        set osd_vtx_channel_pos = 2080
     #$ OPTION END
 
 #$ OPTION_GROUP END

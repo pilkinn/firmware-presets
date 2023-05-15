@@ -115,8 +115,16 @@ beeper CAM_CONNECTION_CLOSE
 beeper RC_SMOOTHING_INIT_FAIL
 
 # beacon
-beacon RX_LOST
-beacon RX_SET
+beacon -RX_LOST
+beacon -RX_SET
+
+#$ OPTION BEGIN (UNCHECKED): Motor Beacon - RX Lost
+    beacon RX_LOST
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Motor Beacon - RX Set
+    beacon RX_SET
+#$ OPTION END
 
 # rxrange
 rxrange 0 988 2011
