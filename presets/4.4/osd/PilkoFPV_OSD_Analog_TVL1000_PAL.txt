@@ -1,11 +1,11 @@
-#$ TITLE: PilkoFPV OSD Analog for 1200TVL Cameras
+#$ TITLE: PilkoFPV OSD Analog for 1000TVL PAL Cameras
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: osd
 #$ AUTHOR: PilkoFPV (Neil Pilkington)
-#$ DESCRIPTION: OSD layout for Analog for 1200TVL Cameras
+#$ DESCRIPTION: OSD layout for Analog for 1000TVL PAL Cameras
 
 set osd_units = METRIC
 set osd_warn_arming_disable = ON
