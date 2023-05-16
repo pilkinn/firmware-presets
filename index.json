@@ -170,9 +170,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL1200.txt",
-      "hash": "12b910b2281d1fb6f647781c9a75b14310ea5e0333fc23a0d9b896cd04636e67",
-      "title": "PilkoFPV OSD Analog for 1200TVL Cameras",
+      "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL1000_PAL.txt",
+      "hash": "2c8a7ac42c8f4fb52a7df27bb6de9b13e843d63d97c0b8f4f253246541f461b3",
+      "title": "PilkoFPV OSD Analog for 1000TVL PAL Cameras",
       "firmware_version": [
         "4.3",
         "4.4"
