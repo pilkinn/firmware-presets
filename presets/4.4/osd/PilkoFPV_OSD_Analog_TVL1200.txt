@@ -1,11 +1,11 @@
-#$ TITLE: PilkoFPV OSD Analog
+#$ TITLE: PilkoFPV OSD Analog for 1200TVL Cameras
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: osd
 #$ AUTHOR: PilkoFPV (Neil Pilkington)
-#$ DESCRIPTION: OSD layout for Analog
+#$ DESCRIPTION: OSD layout for Analog for 1200TVL Cameras
 
 set osd_units = METRIC
 set osd_warn_arming_disable = ON
@@ -137,6 +137,9 @@ set osd_warnings_pos = 14761
     #$ OPTION BEGIN (CHECKED): Current
         set osd_current_pos = 2547
     #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Power
+        set osd_power_pos = 2496
+    #$ OPTION END
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: Navigation Elements
@@ -162,7 +165,7 @@ set osd_warnings_pos = 14761
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Flight Distance
         set osd_flight_dist_pos = 2328
-#$ OPTION END
+    #$ OPTION END
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: RX Elements
@@ -195,9 +198,6 @@ set osd_warnings_pos = 14761
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Core Temp
         set osd_core_temp_pos = 2400
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Power
-        set osd_power_pos = xxxx
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Rate Profile
         set osd_rate_profile_name_pos = 2368

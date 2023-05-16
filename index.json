@@ -186,6 +186,38 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL1200.txt",
+      "hash": "12b910b2281d1fb6f647781c9a75b14310ea5e0333fc23a0d9b896cd04636e67",
+      "title": "PilkoFPV OSD Analog for 1200TVL Cameras",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "osd"
+      ],
+      "author": "PilkoFPV (Neil Pilkington)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL800.txt",
+      "hash": "d44eaa0dec6a738153ec38d596a7a04225fb700c7665ae53f4aac0843cb3b834",
+      "title": "PilkoFPV OSD Analog for 800TVL Cameras",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "osd"
+      ],
+      "author": "PilkoFPV (Neil Pilkington)",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD_HD.txt",
       "hash": "bd2d07655b81209ca71640a2d3b1e79bc1f715c1535edcbcca3ce7c33282139d",
       "title": "PilkoFPV OSD HD",
