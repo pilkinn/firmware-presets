@@ -171,10 +171,9 @@
     },
     {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL1000_PAL.txt",
-      "hash": "2c8a7ac42c8f4fb52a7df27bb6de9b13e843d63d97c0b8f4f253246541f461b3",
-      "title": "PilkoFPV OSD Analog for 1000TVL PAL Cameras",
+      "hash": "a3273e9932b2e081e24bb29609ffabbc211a208d2e0006f1efe6998dd373e12c",
+      "title": "PilkoFPV OSD layout for Analog 1000TVL PAL Cameras",
       "firmware_version": [
-        "4.3",
         "4.4"
       ],
       "category": "OSD",
@@ -186,11 +185,25 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL800.txt",
-      "hash": "d44eaa0dec6a738153ec38d596a7a04225fb700c7665ae53f4aac0843cb3b834",
-      "title": "PilkoFPV OSD Analog for 800TVL Cameras",
+      "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL1200_PAL.txt",
+      "hash": "35439aac640f63848ffcb4e61387b42534e4919c63eb5742288f685598971b23",
+      "title": "PilkoFPV OSD layout for Analog 1200TVL PAL 4:3 Cameras",
       "firmware_version": [
-        "4.3",
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "osd"
+      ],
+      "author": "PilkoFPV (Neil Pilkington)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL800_NTSC.txt",
+      "hash": "a4e0cfd7605dcb8dba7b974045945b66c2e2c7062dbcabf7dfcc981054fb562a",
+      "title": "PilkoFPV OSD layout for Analog 800TVL NTSC 4:3 Cameras",
+      "firmware_version": [
         "4.4"
       ],
       "category": "OSD",
@@ -203,8 +216,8 @@
     },
     {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD_HD.txt",
-      "hash": "bd2d07655b81209ca71640a2d3b1e79bc1f715c1535edcbcca3ce7c33282139d",
-      "title": "PilkoFPV OSD HD",
+      "hash": "e0f0704da5e43b0435f0d9bad1e806fcb7699b6b863827f3af22b2e99832434e",
+      "title": "PilkoFPV OSD layout for HD Cameras",
       "firmware_version": [
         "4.3",
         "4.4"
