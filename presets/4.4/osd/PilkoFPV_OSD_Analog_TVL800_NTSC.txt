@@ -1,11 +1,10 @@
-#$ TITLE: PilkoFPV OSD Analog for 800TVL Cameras
-#$ FIRMWARE_VERSION: 4.3
+#$ TITLE: PilkoFPV OSD Analog for 800TVL NTSC 4:3 Cameras
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: osd
 #$ AUTHOR: PilkoFPV (Neil Pilkington)
-#$ DESCRIPTION: OSD layout for Analog 800TVL Cameras
+#$ DESCRIPTION: OSD layout for Analog 800TVL NTSC 4:3 Cameras
 
 set osd_units = METRIC
 set osd_warn_arming_disable = ON
