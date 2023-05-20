@@ -116,6 +116,9 @@ set vcd_v_offset = 0
     #$ OPTION BEGIN (CHECKED): Current
         set osd_current_pos = 2515
     #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Power
+        set osd_power_pos = 2465
+    #$ OPTION END
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: Navigation Elements
@@ -174,9 +177,6 @@ set vcd_v_offset = 0
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Core Temp
         set osd_core_temp_pos = 2369
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Power
-        set osd_power_pos = 2465
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Rate Profile
         set osd_rate_profile_name_pos = 2337
