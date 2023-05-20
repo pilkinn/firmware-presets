@@ -1,10 +1,10 @@
-#$ TITLE: PilkoFPV OSD layout for Analog 1000TVL PAL Cameras
+#$ TITLE: PilkoFPV OSD layout for Analog 1000TVL PAL 4:3 Cameras
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: osd
 #$ AUTHOR: PilkoFPV (Neil Pilkington)
-#$ DESCRIPTION: OSD layout for Analog 1000TVL PAL Cameras
+#$ DESCRIPTION: OSD layout for Analog 1000TVL PAL 4:3 Cameras
 
 set osd_units = METRIC
 set osd_rssi_alarm = 20
@@ -103,10 +103,6 @@ set vcd_video_system = PAL
 set vcd_h_offset = 0
 set vcd_v_offset = 0
 
-set osd_tim_2_pos = 2520
-set osd_disarmed_pos = xx
-set osd_warnings_pos = xx
-
 #$ OPTION_GROUP BEGIN: Battery & Current Elements
     #$ OPTION BEGIN (CHECKED): Battery Voltage
         set osd_vbat_pos = 2528
@@ -173,14 +169,17 @@ set osd_warnings_pos = xx
     #$ OPTION BEGIN (CHECKED): Flight Mode
         set osd_flymode_pos = 2101
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Ready Mode (for BF4.4)
-        set osd_ready_mode_pos = xxxx
+    #$ OPTION BEGIN (UNCHECKED): Ready Mode
+        set osd_ready_mode_pos = 2380
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Flip arrow
         set osd_flip_arrow_pos = 2510
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Core Temp
         set osd_core_temp_pos = 2400
+    #$ OPTION END
+        #$ OPTION BEGIN (UNCHECKED): Power
+        set osd_power_pos = 2465
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Rate Profile
         set osd_rate_profile_name_pos = 2368

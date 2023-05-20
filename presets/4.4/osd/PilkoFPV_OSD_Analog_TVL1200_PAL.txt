@@ -182,7 +182,7 @@ set vcd_v_offset = 0
         set osd_rate_profile_name_pos = 2337
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Blackbox Log Status
-        set osd_log_status_pos = 234
+        set osd_log_status_pos = 2401
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): VTX Channel
         set osd_vtx_channel_pos = 2081
