@@ -108,10 +108,10 @@ set vcd_v_offset = 0
         set osd_vbat_pos = 2528
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Average Cell Voltage
-        set osd_avg_cell_voltage_pos = 2534
+        set osd_avg_cell_voltage_pos = 2535
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Milliamps Drawn
-        set osd_mah_drawn_pos = 2543
+        set osd_mah_drawn_pos = 2542
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Current
         set osd_current_pos = 2547
@@ -177,10 +177,6 @@ set vcd_v_offset = 0
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Core Temp
         set osd_core_temp_pos = 2400
-    #$ OPTION END
-        #$ OPTION BEGIN (UNCHECKED): Power
-        set osd_power_pos = 2465
-    #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Rate Profile
         set osd_rate_profile_name_pos = 2368
     #$ OPTION END

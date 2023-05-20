@@ -95,9 +95,9 @@ set osd_sys_warnings_pos = 234
 set osd_sys_vtx_temp_pos = 234
 set osd_sys_fan_speed_pos = 234
 
-set osd_tim_2_pos = 2487
-set osd_warnings_pos = 14761
-set osd_disarmed_pos = 2410
+set osd_tim_2_pos = 2423
+set osd_warnings_pos = 14697
+set osd_disarmed_pos = 2346
 
 set vcd_video_system = NTSC
 set vcd_h_offset = 0
@@ -115,6 +115,9 @@ set vcd_v_offset = 0
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Current
         set osd_current_pos = 2450
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Power
+        set osd_power_pos = 2401
     #$ OPTION END
 #$ OPTION_GROUP END
 
@@ -155,7 +158,7 @@ set vcd_v_offset = 0
         set osd_rssi_dbm_pos = 2391
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): RSSI %
-        set osd_rssi_pos = 2457
+        set osd_rssi_pos = 2458
     #$ OPTION END
 #$ OPTION_GROUP END
 
@@ -179,10 +182,10 @@ set vcd_v_offset = 0
         set osd_rate_profile_name_pos = 2273
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): VTX Channel
-        set osd_vtx_channel_pos = 2100
+        set osd_vtx_channel_pos = 2081
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Blackbox Log Status
-        set osd_log_status_pos = 2369
+        set osd_log_status_pos = 2337
     #$ OPTION END
 
 #$ OPTION_GROUP END
