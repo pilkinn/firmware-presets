@@ -171,7 +171,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL1000_PAL.txt",
-      "hash": "d7bdaa3d58d2412b6ebcb7d36cd763cd04f8c327256606a62ddcb2e04c0ae7fa",
+      "hash": "c08bf2542240c8ed0ee8a6be6840f8bffcf4bc9b488badd66ce777055f2e386a",
       "title": "PilkoFPV OSD layout for Analog 1000TVL PAL 4:3 Cameras",
       "firmware_version": [
         "4.4"
@@ -186,7 +186,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL1200_PAL.txt",
-      "hash": "800a6c2fb7fa189b5649e8420e9d45fd622ae244ece3899827254b1b085c839e",
+      "hash": "28f26367eec1edb26459b2ad4f217a012cb62490fec6c11fa113a3db1245a4b8",
       "title": "PilkoFPV OSD layout for Analog 1200TVL PAL 4:3 Cameras",
       "firmware_version": [
         "4.4"
@@ -201,7 +201,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD_Analog_TVL800_NTSC.txt",
-      "hash": "dfc66302c9847992e2d1081b305cb6e8a6419b019f3dfb795146ccf3af6728ba",
+      "hash": "11d206ac81082476c5ae6bdebadb365eeeb0d0dfb392ff09e6a4ce8d43e120ce",
       "title": "PilkoFPV OSD layout for Analog 800TVL NTSC 4:3 Cameras",
       "firmware_version": [
         "4.4"
@@ -216,7 +216,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/PilkoFPV_OSD_HD.txt",
-      "hash": "e0f0704da5e43b0435f0d9bad1e806fcb7699b6b863827f3af22b2e99832434e",
+      "hash": "6a5f93c39be9369e55d62551b1b53fd1d61c0c90432502c0c503a12e5833f25c",
       "title": "PilkoFPV OSD layout for HD Cameras",
       "firmware_version": [
         "4.3",

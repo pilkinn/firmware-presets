@@ -94,6 +94,7 @@ set osd_sys_vtx_dvr_pos = 234
 set osd_sys_warnings_pos = 234
 set osd_sys_vtx_temp_pos = 234
 set osd_sys_fan_speed_pos = 234
+set osd_log_status_pos = 234
 
 set osd_tim_2_pos = 2487
 set osd_warnings_pos = 14761
@@ -111,7 +112,7 @@ set vcd_v_offset = 0
         set osd_avg_cell_voltage_pos = 2504
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Milliamps Drawn
-        set osd_mah_drawn_pos = 2511
+        set osd_mah_drawn_pos = 2510
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Current
         set osd_current_pos = 2515
@@ -139,11 +140,11 @@ set vcd_v_offset = 0
     #$ OPTION BEGIN (UNCHECKED): Altitude
         set osd_altitude_pos = 18679
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): GPS Speed
-        set osd_gps_speed_pos = 2359
-    #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Flight Distance
         set osd_flight_dist_pos = 2327
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): GPS Speed
+        set osd_gps_speed_pos = 2359
     #$ OPTION END
 #$ OPTION_GROUP END
 
@@ -181,11 +182,13 @@ set vcd_v_offset = 0
     #$ OPTION BEGIN (UNCHECKED): Rate Profile
         set osd_rate_profile_name_pos = 2337
     #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Blackbox Log Status
-        set osd_log_status_pos = 2401
-    #$ OPTION END
     #$ OPTION BEGIN (CHECKED): VTX Channel
         set osd_vtx_channel_pos = 2081
     #$ OPTION END
-
+    #$ OPTION BEGIN (UNCHECKED): Blackbox Log Status
+        set osd_log_status_pos = 2401
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Pilot Name
+        set osd_pilot_name_pos = 2081
+    #$ OPTION END
 #$ OPTION_GROUP END

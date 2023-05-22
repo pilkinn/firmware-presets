@@ -94,6 +94,7 @@ set osd_sys_vtx_dvr_pos = 234
 set osd_sys_warnings_pos = 234
 set osd_sys_vtx_temp_pos = 234
 set osd_sys_fan_speed_pos = 234
+set osd_log_status_pos = 234
 
 set osd_tim_2_pos = 2423
 set osd_warnings_pos = 14697
@@ -169,11 +170,11 @@ set vcd_v_offset = 0
     #$ OPTION BEGIN (CHECKED): Flight Mode
         set osd_flymode_pos = 2101
     #$ OPTION END
-        #$ OPTION BEGIN (UNCHECKED): Ready Mode
+    #$ OPTION BEGIN (UNCHECKED): Ready Mode
         set osd_ready_mode_pos = 2316
     #$ OPTION END
     #$ OPTION BEGIN (CHECKED): Flip arrow
-        set osd_flip_arrow_pos = 2113
+        set osd_flip_arrow_pos = 2382
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Core Temp
         set osd_core_temp_pos = 2305
@@ -187,5 +188,7 @@ set vcd_v_offset = 0
     #$ OPTION BEGIN (UNCHECKED): Blackbox Log Status
         set osd_log_status_pos = 2337
     #$ OPTION END
-
+    #$ OPTION BEGIN (UNCHECKED): Pilot Name
+        set osd_pilot_name_pos = 2081
+    #$ OPTION END
 #$ OPTION_GROUP END
