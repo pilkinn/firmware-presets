@@ -4,7 +4,7 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: configuration
 #$ AUTHOR: PilkoFPV (Neil Pilkington)
-#$ DESCRIPTION: Standard configuration for my builds. Test update.
+#$ DESCRIPTION: Standard configuration for my builds.
 
 #$ OPTION BEGIN (UNCHECKED): Dshot600
     set motor_pwm_protocol = Dshot600
